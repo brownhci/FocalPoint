@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4074472814910803307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4074472814910803305}
+  - component: {fileID: 4074472814910803304}
+  m_Layer: 0
+  m_Name: BaseContoller
+  m_TagString: baseController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4074472814910803305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074472814910803307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4074472814910803304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074472814910803307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323b90503bcd243dea0f3e9ab1dbf27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstPersonCamera: {fileID: 0}
+  m_UnityPlaneInteractionLayer: 11
+  m_EnableARPlaneInteraction: 1
+  m_EnableUnityPlaneInteraction: 0
+  m_EnableHandDistanceWarning: 0
+  m_ARSupport: {fileID: 0}
+  m_RedScreen: {fileID: 0}
+  m_planeTransparentMaterial: {fileID: 0}
+  m_bigFocusObj: {fileID: 3596028150467614126, guid: 0a698eb192a804cc1b9e2d38f1386c56,
+    type: 3}
+  m_smallFocusObj: {fileID: 79846350936735001, guid: 5d5d3a29deee2411484ac7e67b036026,
+    type: 3}
+  m_editorHolder: {fileID: 0}
+  m_fTC: {fileID: 0}
+  m_sDM: {fileID: 0}
+  offset: 0.08
+  m_canvas: {fileID: 0}
+  WSManager: {fileID: 0}
+  websocketPort: 8765
